@@ -1,0 +1,66 @@
+/* your beautiful css styling goes here! */
+
+/* Note: an asteroid image is included in this repo.
+Feel free to use it if you like. */
+
+body {
+	background-image: url("nolaDark.png");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.high {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+
+}
+.current {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.collisions{
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  z-index: 2
+}
+.setPosition{
+	padding-top: 20px;
+	text-align: center;
+}
+.button{
+	background-color: white;
+}
+.transbox{
+	margin: 30px;
+	width: 400px;
+	height:100px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.8;
+  z-index: 3;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.transboxSM{
+	margin: 30px;
+	width: 20px;
+	height:100px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity:0.8;
+  z-index: 3;
+}
+

@@ -1,0 +1,11 @@
+{
+	"name": "culture visualized",
+	"description": "A visual representation of a community's creative class",
+	"main": "client/index.html",
+	"license": "Copyright 2015, Culturalyst LLC. All rights reserved."
+	"dependencies":{
+		"express": "~4.0.0",
+    "express-partials": "~0.2.0",
+    "express-session": "^1.7.2",
+	}
+},

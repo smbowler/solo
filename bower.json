@@ -1,0 +1,23 @@
+{
+  "name": "Culture Visualized",
+  "version": "0.0.0",
+  "authors": [
+    "Samuel M. Bowler <samuel.bowler@gmail.com>"
+  ],
+  "license": "None",
+
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "underscore": "~1.8.3",
+    "jquery": "~2.0.3"
+  }
+
+}
